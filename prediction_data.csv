@@ -1,0 +1,2 @@
+model,Weight,Length1,Length2,Length3,Height,Width,Species,accuracy score
+logistic_regression,1.0,2.0,3.0,4.0,5.0,6.0,Smelt,0.625
