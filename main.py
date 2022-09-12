@@ -57,7 +57,7 @@ def main():
             a=[Weight,Length1,Length2,Length3,Height,Width]
             if submit_text:
                 col1,col2=st.columns(2)
-                with st.spinner(f'analysing with given data:{a}.....'):
+                with st.spinner(f'Predicting with given data:{a}.....'):
                     sleep(10)
                     with col1:
                         training_data = [[
@@ -92,7 +92,7 @@ def main():
             a=[Weight,Length1,Length2,Length3,Height,Width]
             if submit_text:
                 col1,col2=st.columns(2)
-                with st.spinner(f'analysing with given data:{a}.....'):
+                with st.spinner(f'Predicting with given data:{a}.....'):
                     sleep(10)
                     with col1:
                         training_data = [[
