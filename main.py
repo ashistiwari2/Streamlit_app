@@ -88,7 +88,7 @@ def main():
             Length3=st.number_input("Enter length3 of fish",key='l_3_1',value=4.0)
             Height=st.number_input("Enter Height of fish",key='h_1_1',value=5.0)
             Width=st.number_input("Enter width of fish",key='w_2_1',value=6.0)
-            submit_text = st.form_submit_button(label='Submit')
+            submit_text = st.form_submit_button(label='Predict')
             a=[Weight,Length1,Length2,Length3,Height,Width]
             if submit_text:
                 col1,col2=st.columns(2)
