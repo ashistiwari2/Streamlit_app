@@ -12,6 +12,11 @@ from xgboost import XGBClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
 import pandas as pd
+st.set_page_config(
+        page_title="Machine Learning Model",
+        page_icon="chart_with_upwards_trend",
+        layout="wide",
+    )
 
 file_csv = pd.read_csv('Fish.csv')
 x = file_csv.iloc[:, 1:].values
