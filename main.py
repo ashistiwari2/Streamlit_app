@@ -30,7 +30,7 @@ def dataframe(data):
                                'Species', 'accuracy score'), index=index)
     df = df.drop_duplicates()
     df.to_csv('prediction_data.csv', index=False)
-    df.to_excel('prediction_data.xls', index=False)
+    df.to_excel('prediction_data.xlsx', index=False)
     st.dataframe(df)
 
 
